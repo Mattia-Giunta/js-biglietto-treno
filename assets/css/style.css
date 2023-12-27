@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-family: sans-serif;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+
+}
+.container>div{
+    background-color: lightgreen;
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 20px;
+    padding: 30px;
+    border-radius: 20px;
+}
+
+#tiketPrice{
+    height: 30px;
+    width: 70%;
+    background-color: white;
+    margin: auto;
+    border-radius: 10px;
+    line-height: 30px;
+}
+
+/* Terminato esercizio */
